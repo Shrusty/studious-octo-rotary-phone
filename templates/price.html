@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block title %}Price{% endblock title %}
+{% block body %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    
+    
+
+</head>
+<body>
+
+    <div class="container my-4">
+        <h1 class="my-4 text-center">Live Prices </h1>
+        <div class="coin-price">
+            <div class="logo"><img src="/static/bitcoin.png" alt="..."></div>
+            <div>
+                <h1>$<span id="bitcoin"></span></h1>
+                <h1>₹<span id="bitcoin01"></span></h1>
+                <h1>Bitcoin</h1>
+            </div>
+        </div>
+        <div class="coin-price">
+            <div class="logo"><img src="/static/litecoin.png" alt="..."></div>
+            <div>
+                <h1>$<span id="litecoin"></span></h1>
+                <h1>₹<span id="litecoin01"></span></h1>
+                <h1>Litecoin</h1>
+            </div>
+        </div>
+       
+        <div class="coin-price">
+            <div class="logo"><img src="/static/ethereum.png" alt="..." ></div>
+            <div>
+                <h1>$<span id="ethereum"></span></h1>
+                <h1>₹<span id="ethereum01"></span></h1>
+                <h1>Ethereum</h1>
+            </div>
+        </div>
+        <div class="coin-price">
+            <div class="logo"><img src="/static/dogecoin.png" alt="..." ></div>
+            <div>
+                <h1>$<span id="dogecoin"></span></h1>
+                <h1>₹<span id="dogecoin01"></span></h1>
+                <h1>Dogecoin</h1>
+            </div>
+        </div>
+
+    </div>
+     
+<script src="{%static 'ap.js'%}"></script>
+   
+    
+</body>
+</html>
+
+
+{% endblock body %}
+

@@ -1,0 +1,44 @@
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+
+{% extends 'base.html' %}
+
+{% block title %}Price{% endblock title %}
+{% block body %}
+
+<div class="coin-list">
+    <div class="coin">
+        <img src="..." alt="..." style="width:42px;height:550px;">
+        <div>
+            <h3>$000 </h3>
+            <p>Bitcoin</p>
+
+        </div>
+    </div>
+
+    <div class="coin">
+        <img src="..." alt="..." style="width:42px;height:550px;">
+        <div>
+            <h3>$000 </h3>
+            <p>Ethereum</p>
+
+        </div>
+    </div>
+    <div class="coin">
+        <img src="..." alt="..." style="width:42px;height:550px;">
+        <div>
+            <h3>$000 </h3>
+            <p>Dogecoin</p>
+
+        </div>
+    </div>
+    
+    
+
+
+</div>
+
+
+{% endblock body %}
+
